@@ -1,0 +1,63 @@
+Assessment 1: Make your favorite sandwich
+
+1. Take 2 slices of bread.
+2. Take 1 cup of shredded cabbage and pour it into a bowl
+3. Pour mayo, ketchup into the bowl
+4. Mix the mixture of the bowl with the help of a spoon
+5. Spread the mixture on 1 slices of bread
+6. Assemble the sandwich by covering 1 slice with the other.
+7. Grill the sandwich for 2-3 minutes
+8. Cut the sandwich into two halves.
+9. Serve hot
+
+
+
+ASSESSMENT 2: Function for boundary testing
+
+
+
+Python code
+
+
+def get_type_of_business(input_n):
+	
+
+	if input_n <= 0:
+
+		return None
+
+	elif input_n < 25:
+
+		return "STANDARD"
+
+	elif input_n >= 25:
+
+		return "CORPORATE"
+
+	else:
+
+		return "INVALID"
+
+
+
+if __name__ == "__main__":
+
+
+	input_num = int(input("Enter a number to get the type of the business"))
+
+	print(get_type_of_business(input_num))
+
+
+
+
+
+BOUNDARY VALUE TEST CASES
+
+Class I : value<0 => Invalid Class
+
+Class II : value=0 => Valid Class (returns None)
+
+Class III : value=1 to 25 => Valid Class (returns Standard)
+
+Class IV: value>25 => Valid Class (returns Corporate)
+
