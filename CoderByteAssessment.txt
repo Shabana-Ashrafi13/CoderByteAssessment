@@ -22,7 +22,7 @@ Python code
 def get_type_of_business(input_n):
 	
 
-	if input_n <= 0:
+	if input_n = 0:
 
 		return None
 
